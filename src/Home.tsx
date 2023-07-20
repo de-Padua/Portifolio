@@ -10,7 +10,7 @@ export default function Home() {
 
     <>
       <div className="home-3d">
-        <spline-viewer url="https://prod.spline.design/5LWpxOYo9TgVQ5ul/scene.splinecode"></spline-viewer>
+        <spline-viewer   url="https://prod.spline.design/5LWpxOYo9TgVQ5ul/scene.splinecode"></spline-viewer>
       </div>
       <div className="main-container-home">
         <div className="ctn home-container-top">

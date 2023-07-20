@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export default function Project() {
   return (
-    <div>Project</div>
-  )
+    <div className="project">
+      <div className="image-project">
+       
+      </div>
+    </div>
+  );
 }
