@@ -435,18 +435,20 @@ path:nth-child(6) {
   display: flex;
   align-items: safe;
   justify-content: center;
-  height: 160vh;
   width: 100%;
 }
 
 .project{
-  z-index: 10000;
-  height: 80%;
-  width: 100%;
-  background-color: #EA3C53
+
   
 
    
+}
+.project-section{
+  height: 100vh;
+  width: 95%;
+  margin: 2em;
+  background-color: #EA3C53;
 }
 .image-project{
   z-index: 1000;
@@ -455,18 +457,43 @@ path:nth-child(6) {
   width: 90%;
 }
 .menu-item{
-  cursor: pointer;
+  color: rgb(0, 0, 0);
+   height: 50px;
+   cursor: pointer;
    display: flex;
    flex-direction: row;
    align-items: self-start;
-   justify-content: space-around;
    font-size: 1rem;
-   background-color: #EA3C53;
    padding: .5em;
-   border-radius: 5px;
+   border-radius: 10px;
+  transition: all .14s ease;
 }
+
 .menu-item h4{
   font-size: 1.1rem;
   margin: 0;
   pad: 0;
+}
+.menu-item p{
+  font-size: .8rem;
+  font-weight: bold;
+}
+.icon-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+  font-size: 2rem;
+}
+
+.desc-menu-item{
+  display: flex;
+  height: 100%;
+  align-items: safe;
+  justify-content: center;
+  flex-direction: column;
+}
+.desc-menu-item p{
+  margin: 0;
 }
