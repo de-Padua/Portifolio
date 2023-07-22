@@ -1,16 +1,21 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Menu from "./Menu";
-
+import Spline from '@splinetool/react-spline';
 
 export default function Home() {
+  const ref = useRef(null);
   const [menu, setMenu] = useState(false);
-    
-  
-  return (
+  const [isOb, setIsOb] = useState(false);
 
+
+  
+
+
+  return (
     <>
-      <div className="home-3d">
-        <spline-viewer   url="https://prod.spline.design/5LWpxOYo9TgVQ5ul/scene.splinecode"></spline-viewer>
+      <div className="home-3d"  ref={ref}>
+      <Spline scene="https://prod.spline.design/5LWpxOYo9TgVQ5ul/scene.splinecode" />
+
       </div>
       <div className="main-container-home">
         <div className="ctn home-container-top">
@@ -27,7 +32,6 @@ export default function Home() {
           <div className="name-title">
             <p>CREATIVE</p>
             <p>FRONT END DEVELOPER</p>
-          
           </div>
           <div className="skill-home">
             <p>REACT</p>
@@ -35,10 +39,8 @@ export default function Home() {
             <p>JAVASCRIPT</p>
             <p>NEXT</p>
           </div>
-     
+        </div>
       </div>
-      </div>
-      
     </>
   );
 }

@@ -17,11 +17,11 @@ export default function Projects() {
     <>
       <div className="project-container">
         <div className="title-projects">
-          <h2 data-aos="fade-right" data-aos-offset="200" data-aos-delay="50">
+          <h2>
             PROJECTS
           </h2>
 
-          <h2 data-aos="fade-right" data-aos-offset="200" data-aos-delay="400">
+          <h2 >
             -
           </h2>
           <div className="menu">
@@ -78,6 +78,21 @@ export default function Projects() {
                 "https://github.com/de-Padua/HousingHub/raw/main/images/screencapture-localhost-5173-criar-anuncio-2023-07-18-01_46_54.png?raw=true",
                 "https://github.com/de-Padua/HousingHub/raw/main/images/screencapture-localhost-5173-2023-07-18-01_46_31.png?raw=true",
                 "https://github.com/de-Padua/HousingHub/raw/main/images/screencapture-localhost-5173-2023-07-18-01_46_31.png?raw=true",
+              ]}
+            />
+          </section>
+          <section className="project-section" >
+            <Project
+              title={"Level up"}
+              desc={
+                "Level Up is a social media application that enables users to share their game status and game reviews with other users. Additionally, users have the ability to create their own lists of favorite games and completed games. In future updates, the application will incorporate features such as user following and direct messaging."
+              }
+              images={[
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/bug-tracker/Capturar.PNG?raw=true",
+                "w",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/bug-tracker/asd.PNG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/bug-tracker/foto-1.PNG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/bug-tracker/Capturar.PNG?raw=true",
               ]}
             />
           </section>
