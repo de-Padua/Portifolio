@@ -436,12 +436,12 @@ path:nth-child(6) {
   margin-bottom: 6em;
 }
 .project {
+  border: 1px solid black;
   background: rgba(233, 233, 233, 0.075);
   box-shadow: 0 8px 32px 0 var(--primary);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
   padding: 1em;
   border-radius: 10px;
   width: 100%;
@@ -529,8 +529,8 @@ path:nth-child(6) {
   justify-content: space-between;
 }
 .desc-project {
-  font-size: 1.9rem;
-  letter-spacing: -2px;
+  font-size: 1.3rem;
+  letter-spacing: -1px;
   font-size-adjust: unset;
   font-weight: 100;
   margin-bottom: 1em;
@@ -606,4 +606,13 @@ path:nth-child(6) {
   font-family: "Roboto";
   font-weight: 500;
   width: 100%;
+}
+.skill-main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.images-skills img{
+  width: 200px;
 }

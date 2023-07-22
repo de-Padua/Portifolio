@@ -10,7 +10,7 @@ export default function Project({title,desc,images}) {
     
       </div>
 
-      <div className="title-project-1" data-aos="fade" data-aos-offset="100">
+      <div className="title-project-1" >
         <h2>{ title ? title.toUpperCase() : ""}</h2>
       
       </div>

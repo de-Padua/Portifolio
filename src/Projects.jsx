@@ -115,13 +115,13 @@ export default function Projects() {
             <Project
               title={"Hidders"}
               desc={
-"It is a complete front-end for an e-commerce, which offers all the functionalities expected in an e-commerce environment, including the possibility of creating users, saving items in the users' shopping cart, filtering products by category and provide a personal page for each user"              }
+"It is a complete front-end for an e-commerce, which offers all the functionalities expected in an e-commerce environment, including the possibility of creating users, saving items in the users' shopping cart, filtering products by category and provide a personal page for each user."              }
               images={[
-                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/home.JPG?raw=true",
-                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/closed-issues.JPG?raw=true",
-                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/issues-detail.JPG?raw=true",
-                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/feed.JPG?raw=true",
-                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/home.JPG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/hidders/asddsa.PNG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/hidders/3.PNG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/hidders/adsads.PNG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/hidders/asdasd.PNG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/hidders/asddsa.PNG?raw=true",
                 
               ]}
             />
