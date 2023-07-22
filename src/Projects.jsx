@@ -9,9 +9,7 @@ export default function Projects() {
   const [isIntersecting, setIsIntersecting] = useState(false);
 
   const ref = useRef(null);
-  const ref_project_2 = useRef(null);
-  const ref_project_3 = useRef(null);
-  const ref_project_4 = useRef(null);
+
 
   return (
     <>
@@ -88,11 +86,43 @@ export default function Projects() {
                 "Level Up is a social media application that enables users to share their game status and game reviews with other users. Additionally, users have the ability to create their own lists of favorite games and completed games. In future updates, the application will incorporate features such as user following and direct messaging."
               }
               images={[
-                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/bug-tracker/Capturar.PNG?raw=true",
-                "w",
-                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/bug-tracker/asd.PNG?raw=true",
-                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/bug-tracker/foto-1.PNG?raw=true",
-                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/bug-tracker/Capturar.PNG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/level-up/1-2.PNG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/level-up/1-3.PNG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/level-up/3.PNG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/level-up/1-1.PNG?raw=true",
+                "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/level-up/1-2.PNG?raw=true",
+                
+              ]}
+            />
+          </section>
+          <section className="project-section" >
+            <Project
+              title={"Bug tracker"}
+              desc={
+                "This project is designed to be a bug-tracking tool for teams to use on a daily basis. It is intended to be used on a private server by any company that desires it. However, for demonstration purposes, the project is now open-source, and anyone can register and use it."
+              }
+              images={[
+                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/home.JPG?raw=true",
+                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/closed-issues.JPG?raw=true",
+                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/issues-detail.JPG?raw=true",
+                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/feed.JPG?raw=true",
+                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/home.JPG?raw=true",
+                
+              ]}
+            />
+          </section>
+          <section className="project-section" >
+            <Project
+              title={"Hidders"}
+              desc={
+"It is a complete front-end for an e-commerce, which offers all the functionalities expected in an e-commerce environment, including the possibility of creating users, saving items in the users' shopping cart, filtering products by category and provide a personal page for each user"              }
+              images={[
+                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/home.JPG?raw=true",
+                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/closed-issues.JPG?raw=true",
+                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/issues-detail.JPG?raw=true",
+                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/feed.JPG?raw=true",
+                "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/home.JPG?raw=true",
+                
               ]}
             />
           </section>

@@ -581,8 +581,9 @@ path:nth-child(6) {
 }
 .grid-2px img {
   width: 100%;
+  
   border: 1px solid black;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 5px;
 }
 .buttons-project{
