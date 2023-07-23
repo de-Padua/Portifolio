@@ -72,13 +72,16 @@ export default function About() {
       </div>
       <div className="title-work-stack">
         <h2>This is my current work stack</h2>
+        
       </div>
       <div className="images-skills">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" />
+        <svg className="svg-4" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800"><g stroke-width="2" stroke="hsl(0, 0%, 0%)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="31 32" transform="matrix(0.7193398003386512,0.6946583704589973,-0.6946583704589973,0.7193398003386512,334.12742804813837,-211.59926831905932)"><path d="M278.5798568725586 316.0534167289734Q652.5798568725586 285.0534167289734 450.5798568725586 488.0534167289734 " marker-end="url(#SvgjsMarker1810)"></path></g><defs><marker markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" viewBox="0 0 5 5" orient="auto" id="SvgjsMarker1810"><polygon points="0,5 1.6666666666666667,2.5 0,0 5,2.5" fill="hsl(0, 0%, 0%)"></polygon></marker></defs></svg>
       </div>
+      
     </div>
   );
 }

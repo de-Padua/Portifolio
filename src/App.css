@@ -680,3 +680,50 @@ z-index: 10;
   margin-top:9em;
   margin-left: 5em;
 }
+.footer-section{
+  font-family: "Playfair Display", serif;
+ height: 50vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center ;
+  justify-content: space-around;
+
+}
+.l-footer{
+  width: 50%;
+}
+.r-footer a{
+  text-decoration: none;
+  columns: white;
+  color: #fefeff;
+  font-size: 1.2rem;
+  border-bottom: 1px solid white;
+}
+.contact-container{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  
+  background-color: white;
+}
+.svg-4{
+  position: absolute;
+  margin-left: -50em;
+}
+.contact-page{
+   width: 50%;
+   font-family: "Playfair Display", serif;
+   
+   text-align: center;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.contact-page h2{
+  font-size: 4rem;
+}
+.reach-me{
+  width: 50%;
+}

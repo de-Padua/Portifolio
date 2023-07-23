@@ -10,18 +10,13 @@ export default function Projects() {
 
   const ref = useRef(null);
 
-
   return (
     <>
       <div className="project-container">
         <div className="title-projects">
-          <h2>
-            PROJECTS
-          </h2>
+          <h2>PROJECTS</h2>
 
-          <h2 >
-            -
-          </h2>
+          <h2>-</h2>
           <div className="menu">
             <div>
               <section>
@@ -60,6 +55,7 @@ export default function Projects() {
                   timing={1000}
                 />
               </section>
+              
             </div>
           </div>
         </div>
@@ -79,7 +75,7 @@ export default function Projects() {
               ]}
             />
           </section>
-          <section className="project-section" >
+          <section className="project-section">
             <Project
               title={"Level up"}
               desc={
@@ -91,11 +87,10 @@ export default function Projects() {
                 "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/level-up/3.PNG?raw=true",
                 "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/level-up/1-1.PNG?raw=true",
                 "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/level-up/1-2.PNG?raw=true",
-                
               ]}
             />
           </section>
-          <section className="project-section" >
+          <section className="project-section">
             <Project
               title={"Bug tracker"}
               desc={
@@ -107,22 +102,21 @@ export default function Projects() {
                 "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/issues-detail.JPG?raw=true",
                 "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/feed.JPG?raw=true",
                 "https://github.com/de-Padua/BugTracker/raw/main/how-to-use/home.JPG?raw=true",
-                
               ]}
             />
           </section>
-          <section className="project-section" >
+          <section className="project-section">
             <Project
               title={"Hidders"}
               desc={
-"It is a complete front-end for an e-commerce, which offers all the functionalities expected in an e-commerce environment, including the possibility of creating users, saving items in the users' shopping cart, filtering products by category and provide a personal page for each user."              }
+                "It is a complete front-end for an e-commerce, which offers all the functionalities expected in an e-commerce environment, including the possibility of creating users, saving items in the users' shopping cart, filtering products by category and provide a personal page for each user."
+              }
               images={[
                 "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/hidders/asddsa.PNG?raw=true",
                 "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/hidders/3.PNG?raw=true",
                 "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/hidders/adsads.PNG?raw=true",
                 "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/hidders/asdasd.PNG?raw=true",
                 "https://github.com/de-Padua/Portifolio/blob/main/src/projetos/hidders/asddsa.PNG?raw=true",
-                
               ]}
             />
           </section>
